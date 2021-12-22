@@ -1,6 +1,6 @@
 # TomcatDocker
 
-![portadas.png](/portadas.png)
+![portadas.png](Images/portadas.png)
 
 
 En este repositorio se repasara como dockerizar el contenedor de servlets tomcat ademas de como desplegar este contenedor en 3 opciones en la nube como lo son AWS, Azure y Gcloud
@@ -15,5 +15,5 @@ Docker le proporciona una manera estándar de ejecutar su código. Docker es un 
 
 Docker Engine se encarga de lanzar y gestionar los contenedores con nuestras aplicaciones, pero en lugar de exponer los diferentes recursos de hardware de la máquina de manera discreta (es decir, 1 procesador y "x" GB de RAM... para cada aplicación), lo que hace es compartirlos entre todos los contenedores optimizando su uso y eliminando la necesidad de tener sistemas operativos separados para conseguir el aislamiento.
 
-![containers-vs-virtual-machines.jpg](/containers-vs-virtual-machines.jpg)
+![containers-vs-virtual-machines.jpg](Images/containers-vs-virtual-machines.jpg)
 
