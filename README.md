@@ -17,8 +17,9 @@ Docker Engine se encarga de lanzar y gestionar los contenedores con nuestras apl
 
 ![containers-vs-virtual-machines.jpg](Images/containers-vs-virtual-machines.jpg)
 
+[Creado el docker file y docker compose:](https://github.com/Afelipe1599/TomcatDocker/tree/main/Docker)
+
 - Creado el docker file y docker compose
 - Desplegarlo en aws
 - Desplegarlo en Gcloud
 - Desplegarlo en Azure
-
