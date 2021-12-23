@@ -86,6 +86,11 @@ version: '3'
 ```plain
 services:
 ```     
+-  ## VOLUMES
+	 Donde podremos definir la persistencia de datos de nuestros contenedores.
+```plain
+volumes:
+```     
 
 
 
