@@ -63,7 +63,12 @@ Para ejecutarlo primero se debe construir la imagen, esto se hace desde la termi
 docker build -t tomcatprueba .
 ```     
 -t define el nombre de la imagen.
- 
+
+Posterior a esto ya podemos ejecutar dicha imagen, para correr la imagen se utiliza el siguiente comando:
+```plain
+docker run -p 8080:8080 tomcatprueba
+```   
+ -p publica los puertos de un contenedor en el host, en este caso el 8080 del contenedor al 8080 de la maquina que lo esta ejecutando.
 
 
 
