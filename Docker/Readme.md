@@ -10,9 +10,10 @@ Un Dockerfile es un archivo de texto plano que contiene una serie de instruccion
 
 
 # Elementos de un Dockerfile
--  ## From
--  ## Expose
--  ## Copy
+-  ## FROM
+ indica la imagen base sobre la que se construirá la aplicación dentro del contenedo
+-  ## EXPOSE
+-  ## COPY
 -  ## CMD
 -  ## RUN
 
