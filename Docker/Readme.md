@@ -58,6 +58,10 @@ EXPOSE 8080
 #Comando de inicio
 CMD ["catalina.sh","run"]
 ```     
+Para ejecutarlo primero se debe construir la imagen, esto se hace desde la terminal con el siguiente comando desde el directorio donde se encuentra el docker file:
+```plain
+docker build -t tomcatprueba .
+```     
  
 
 
