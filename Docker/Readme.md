@@ -1,7 +1,7 @@
 
 # Docker
 
-![docker.png](./Images/docker.png)
+![docker.png](../Images/docker.png)
 ![docker.png](/Docker/docker.png)
 
 
