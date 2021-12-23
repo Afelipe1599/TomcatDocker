@@ -10,14 +10,11 @@ Un Dockerfile es un archivo de texto plano que contiene una serie de instruccion
 
 
 # Elementos de un Dockerfile
-- ## dsfsf
-- sdfsf
-- 
-- ffsf
+- From
+-  Expose
+-  Copy
+-  CMD
+-  RUN
 
-## -From
-## -Expose
-## -Copy
-## -CMD
-## -RUN
+
 
