@@ -73,6 +73,8 @@ docker run -p 8080:8080 tomcatprueba
 Con esto ya tendriamos un tomcat corriendo en nuestro computador atravez de una imagen de docker.
 
 # ¿Que es el docker-compose?
+Esta es una herramienta que nos ayuda a utilizar las imagenes de docker tanto las predeterminadas como las creadas por nosotros
+
 
 
 
