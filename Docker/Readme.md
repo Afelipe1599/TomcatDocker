@@ -32,6 +32,7 @@ COPY ./ejemplo.war /usr/local/tomcat/webapps/
 CMD ["catalina.sh","run"]
 ```      
 -  ## RUN
+	Nos permite ejecutar comandos en el contenedor, por ejemplo, instalar paquetes o librerías
 
 
 
