@@ -2,4 +2,6 @@
 ![docker.png](../Images/docker.png)
 
 
-Acontinuacion definiremos en que consiste el docker file y el docker compose
+Acontinuacion definiremos en que consiste el Dockerfile y el docker compose
+
+#¿Que es el Dockerfile?
