@@ -22,6 +22,10 @@ FROM tomcat:8.0.47
 EXPOSE 8080
 ```    
 -  ## COPY
+	Copia un archivo del directorio local a la imagen que se esta construyendo
+```plain
+COPY ./prueba.war /usr/local/tomcat/webapps/
+```  
 -  ## CMD
 -  ## RUN
 
