@@ -20,6 +20,11 @@ FROM tomcat:8.0.47
 ```plain
 EXPOSE 8080
 ```    
+-  ## WORKDIR
+	Indica el directorio de trabajo dentro del contenedor
+```plain
+WORKDIR ruta/de/Proyecto
+```  
 -  ## COPY
 	Copia un archivo del directorio local a la imagen que se esta construyendo
 ```plain
