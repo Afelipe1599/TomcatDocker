@@ -10,38 +10,38 @@ Un Dockerfile es un archivo de texto plano que contiene una serie de instruccion
 
 
 # Elementos de un Dockerfile
--  ## FROM
+-  ### FROM
  	Indica la imagen base sobre la que se construirá la aplicación dentro del contenedo    
 ```plain
 FROM tomcat:8.0.47 
 ```
--  ## MAINTAINER
+-  ### MAINTAINER
 	Indica el nombre del autor del dockerfile
 ```plain
 MAINTAINER Andres Valencia "avalencia@gmail.com"
 ```  
--  ## EXPOSE
+-  ### EXPOSE
 	Indica los puertos TCP/IP los cuales se pueden accede a los servicios del contenedor
 ```plain
 EXPOSE 8080
 ```    
--  ## WORKDIR
+-  ### WORKDIR
 	Indica el directorio de trabajo dentro del contenedor
 ```plain
 WORKDIR ruta/de/Proyecto
 ```  
--  ## COPY o ADD
+-  ### COPY o ADD
 	Copia un archivo del directorio local a la imagen que se esta construyendo
 ```plain
 COPY ./ejemplo.war /usr/local/tomcat/webapps/
 ADD ./ejemplo.war /usr/local/tomcat/webapps/ejemplo.war
 ```  
--  ## RUN
+-  ### RUN
 	Nos permite ejecutar comandos en el contenedor, por ejemplo, instalar paquetes o librerías
 ```plain
 RUN apt-get update
 ```    
--  ## CMD
+-  ### CMD
 	Establece el commando del proceso de inicio del contenedor
 ```plain
 CMD ["catalina.sh","run"]
@@ -76,33 +76,33 @@ Con esto ya tendriamos un tomcat corriendo en nuestro computador atravez de una 
 Esta es una herramienta que nos ayuda a utilizar imagenes de docker tanto las predeterminadas como las creadas por nosotros obteniendo como resultado un conjunto de scripts que nos facilitan la construcción de nuestros servicios. La mayor ventaja de este es que podemos crear diferentes contenedores y por cada contenedor diferentes servicios.
 
 # Elementos de un docker-compose
--  ## VERSION
+-  ### VERSION
 	Se refiere a la version de docker-compose
 ```plain
 version: '3'
 ```     
--  ## SERVICES
+-  ### SERVICES
 	Servirá para configurar todos nuestros contenedores partiendo de una imagen base, además de poder indicar variables de entorno o establecer ubicaciones.
 ```plain
 services:
 ```     
--  ## VOLUMES
+-  ### VOLUMES
 	 Donde podremos definir la persistencia de datos de nuestros contenedores.
 ```plain
 volumes:
 ```     
--  ## IMAGE
+-  ### IMAGE
 	 Se refiere a la imagen que va a correr nuestro contendor en el docker-compose
 ```plain
 image:tomcat:8.0.47
 ```   
--  ## PORTS
+-  ### PORTS
 	 Se refiere a el mapeo de puertos que se le haran a la maquina
 ```plain
     ports:
       - "8080:8080"
 ``` 
--  ## NETWORKS
+-  ### NETWORKS
 	 Si queremos que nuestros contenedores se encuentren en la misma red este comando nos sirve
 ```plain
 networks:
