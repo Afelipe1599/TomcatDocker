@@ -26,13 +26,18 @@ EXPOSE 8080
 ```plain
 COPY ./ejemplo.war /usr/local/tomcat/webapps/
 ```  
+-  ## RUN
+	Nos permite ejecutar comandos en el contenedor, por ejemplo, instalar paquetes o librerías
+```plain
+RUN apt-get update
+```    
+
 -  ## CMD
 	Establece el commando del proceso de inicio del contenedor
 ```plain
 CMD ["catalina.sh","run"]
 ```      
--  ## RUN
-	Nos permite ejecutar comandos en el contenedor, por ejemplo, instalar paquetes o librerías
+  
 
 
 
