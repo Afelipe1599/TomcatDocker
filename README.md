@@ -20,6 +20,6 @@ Docker Engine se encarga de lanzar y gestionar los contenedores con nuestras apl
 
 
 - [Creado el docker file y docker compose](https://github.com/Afelipe1599/TomcatDocker/tree/main/Docker)
-- [Desplegarlo en aws](https://github.com/Afelipe1599/TomcatDocker/tree/main/Aws)
-- [Desplegarlo en Gcloud](https://github.com/Afelipe1599/TomcatDocker/tree/main/Gcloud)
-- [Desplegarlo en Azure](https://github.com/Afelipe1599/TomcatDocker/tree/main/Azure)
+- [Desplegarlo en AWS](https://github.com/Afelipe1599/TomcatDocker/tree/main/Aws)
+- [Desplegarlo en GCLOUD](https://github.com/Afelipe1599/TomcatDocker/tree/main/Gcloud)
+- [Desplegarlo en AZURE](https://github.com/Afelipe1599/TomcatDocker/tree/main/Azure)
