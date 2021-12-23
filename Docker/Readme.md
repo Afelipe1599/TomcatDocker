@@ -46,6 +46,19 @@ RUN apt-get update
 ```plain
 CMD ["catalina.sh","run"]
 ```      
+# Crear y ejecutar un Dockerfile
+Perfecto, con los elementos anteriores podemos crear un docker file, como ejemplo tomaremos el siguiente:
+
+```plain
+#Imagen que se va a ejecutar
+FROM tomcat:8.0.47
+
+#Puerto por donde va a escuchar
+EXPOSE 8080
+
+#Comando de inicio
+CMD ["catalina.sh","run"]
+```     
   
 
 
