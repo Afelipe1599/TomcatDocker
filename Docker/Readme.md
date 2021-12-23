@@ -62,6 +62,7 @@ Para ejecutarlo primero se debe construir la imagen, esto se hace desde la termi
 ```plain
 docker build -t tomcatprueba .
 ```     
+-t define el nombre de la imagen.
  
 
 
