@@ -11,8 +11,7 @@ Un Dockerfile es un archivo de texto plano que contiene una serie de instruccion
 
 # Elementos de un Dockerfile
 -  ## FROM
- 	Indica la imagen base sobre la que se construirá la aplicación dentro del contenedo
-    
+ 	Indica la imagen base sobre la que se construirá la aplicación dentro del contenedo    
 ```plain
 FROM tomcat:8.0.47 
 ```
@@ -31,7 +30,6 @@ COPY ./ejemplo.war /usr/local/tomcat/webapps/
 ```plain
 RUN apt-get update
 ```    
-
 -  ## CMD
 	Establece el commando del proceso de inicio del contenedor
 ```plain
