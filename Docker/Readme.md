@@ -108,6 +108,15 @@ image:tomcat:8.0.47
 networks:
 ``` 
 # Crear y ejecutar un docker-compose
+Con los elementos mencionados anteriormente construiremos un docker-compose sencillo que ejecute un contenedor con una imagen de tomcat en el puerto 8080 de la siguiente manera:
+```plain
+version: '3'
+services:
+  web:
+    image: tomcat:8.0.47
+    ports:
+      - "8080:8080"
+``` 
 
 
 
