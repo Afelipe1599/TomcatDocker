@@ -15,6 +15,11 @@ Un Dockerfile es un archivo de texto plano que contiene una serie de instruccion
 ```plain
 FROM tomcat:8.0.47 
 ```
+-  ## MAINTAINER
+	Indica el nombre del autor del dockerfile
+```plain
+MAINTAINER Andres Valencia "avalencia@gmail.com"
+```  
 -  ## EXPOSE
 	Indica los puertos TCP/IP los cuales se pueden accede a los servicios del contenedor
 ```plain
