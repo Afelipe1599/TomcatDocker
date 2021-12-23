@@ -27,6 +27,10 @@ EXPOSE 8080
 COPY ./ejemplo.war /usr/local/tomcat/webapps/
 ```  
 -  ## CMD
+	Establece el commando del proceso de inicio del contenedor
+```plain
+CMD ["catalina.sh","run"]
+```      
 -  ## RUN
 
 
