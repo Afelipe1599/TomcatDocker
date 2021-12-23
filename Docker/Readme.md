@@ -30,10 +30,11 @@ EXPOSE 8080
 ```plain
 WORKDIR ruta/de/Proyecto
 ```  
--  ## COPY
+-  ## COPY o ADD
 	Copia un archivo del directorio local a la imagen que se esta construyendo
 ```plain
 COPY ./ejemplo.war /usr/local/tomcat/webapps/
+ADD ./ejemplo.war /usr/local/tomcat/webapps/ejemplo.war
 ```  
 -  ## RUN
 	Nos permite ejecutar comandos en el contenedor, por ejemplo, instalar paquetes o librerías
