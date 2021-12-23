@@ -138,7 +138,9 @@ services:
       - "8080:8080"      
 ```
 con este docker-compose tendriamos dos tomcats corriendo en puertos diferentes, uno en el 8080 y otro en el 8081
-[docker-compose](https://github.com/Afelipe1599/TomcatDocker/tree/main/Docker/docker-compose.yml)
+
+- [docker-compose](https://github.com/Afelipe1599/TomcatDocker/tree/main/Docker/docker-compose.yml)
+
 
 
 
