@@ -117,6 +117,29 @@ services:
     ports:
       - "8080:8080"
 ``` 
+Para ejecutarlo nos ubicamos en la raiz del proyecto y ejecutamos el comando 
+```plain
+docker-compose up
+``` 
+Con este comando docker-compose estaria levantantdo un contenedor con tomcat corriendo en el puerto 8080 de la maquina local
+
+## PLUS
+si quisieramos correr dos contenedores solo hace falta agregarlo al docker compose de la siguiente manera:
+```plain
+version: '3'
+services:
+  web:
+    image: tomcat:8.0.47
+    ports:
+      - "8081:8080"
+  web2:
+    image: tomcat:8.0.47
+    ports:
+      - "8080:8080"      
+```
+con este docker-compose tendriamos dos tomcats corriendo en puertos diferentes, uno en el 8080 y otro en el 8081
+
+
 
 
 
