@@ -69,6 +69,10 @@ Posterior a esto ya podemos ejecutar dicha imagen, para correr la imagen se util
 docker run -p 8080:8080 tomcatprueba
 ```   
  -p publica los puertos de un contenedor en el host, en este caso el 8080 del contenedor al 8080 de la maquina que lo esta ejecutando.
+ 
+Con esto ya tendriamos un tomcat corriendo en nuestro computador atravez de una imagen de docker.
+
+# ¿Que es el docker-compose?
 
 
 
