@@ -11,12 +11,16 @@ Un Dockerfile es un archivo de texto plano que contiene una serie de instruccion
 
 # Elementos de un Dockerfile
 -  ## FROM
- 	indica la imagen base sobre la que se construirá la aplicación dentro del contenedo
+ 	Indica la imagen base sobre la que se construirá la aplicación dentro del contenedo
     
 ```plain
 FROM tomcat:8.0.47 
 ```
 -  ## EXPOSE
+	Indica los puertos TCP/IP los cuales se pueden accede a los servicios del contenedor
+```plain
+EXPOSE 8080
+```    
 -  ## COPY
 -  ## CMD
 -  ## RUN
