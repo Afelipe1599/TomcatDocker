@@ -82,7 +82,7 @@ Esta es una herramienta que nos ayuda a utilizar imagenes de docker tanto las pr
 version: '3'
 ```     
 -  ## SERVICES
-	servirá para configurar todos nuestros contenedores partiendo de una imagen base, además de poder indicar variables de entorno o establecer ubicaciones.
+	Servirá para configurar todos nuestros contenedores partiendo de una imagen base, además de poder indicar variables de entorno o establecer ubicaciones.
 ```plain
 services:
 ```     
@@ -91,6 +91,23 @@ services:
 ```plain
 volumes:
 ```     
+-  ## IMAGE
+	 Se refiere a la imagen que va a correr nuestro contendor en el docker-compose
+```plain
+image:tomcat:8.0.47
+```   
+-  ## PORTS
+	 Se refiere a el mapeo de puertos que se le haran a la maquina
+```plain
+    ports:
+      - "8080:8080"
+``` 
+-  ## NETWORKS
+	 Si queremos que nuestros contenedores se encuentren en la misma red este comando nos sirve
+```plain
+networks:
+``` 
+
 
 
 
