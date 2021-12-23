@@ -81,6 +81,11 @@ Esta es una herramienta que nos ayuda a utilizar imagenes de docker tanto las pr
 ```plain
 version: '3'
 ```     
+-  ## SERVICES
+	servirá para configurar todos nuestros contenedores partiendo de una imagen base, además de poder indicar variables de entorno o establecer ubicaciones.
+```plain
+services:
+```     
 
 
 
