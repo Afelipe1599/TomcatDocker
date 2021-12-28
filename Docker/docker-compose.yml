@@ -3,8 +3,8 @@ services:
   web:
     image: tomcat:8.0.47
     ports:
-      - "8081:8080"
-  web2:
-    image: tomcat:8.0.47
-    ports:
-      - "8080:8080"      
+      - "8080:8080"
+  #web2:
+   # image: tomcat:8.0.47
+    #ports:
+     # - "8080:8080"      
