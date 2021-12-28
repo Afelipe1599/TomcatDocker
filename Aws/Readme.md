@@ -6,7 +6,7 @@ Para comenzar a utilizar nuestras propias imagenes en AWS lo primero que tenemos
 1. Crear repositorio
 ![aws1.png](../Images/aws1.png)
 2. Escoger un nombre y si va a ser publico o privado.
-![aws2.png](../Images/aws2.png)
+![aws2.PNG](../Images/aws2.PNG)
 
 
 
