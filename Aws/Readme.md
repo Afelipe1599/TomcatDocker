@@ -8,6 +8,7 @@ Para comenzar a utilizar nuestras propias imagenes en AWS lo primero que tenemos
 2. Escoger un nombre y si va a ser publico o privado.
 ![aws2.PNG](../Images/aws2.PNG)
 ![aws3.PNG](../Images/aws3.PNG)
+![aws4.PNG](../Images/aws4.PNG)
 
 
 
