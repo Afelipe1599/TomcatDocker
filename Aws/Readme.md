@@ -13,6 +13,8 @@ Para comenzar a utilizar nuestras propias imagenes en AWS lo primero que tenemos
 ![aws5.png](../Images/aws5.png)
 4. Ejecutamos los comandos que se muestran.
 ![aws6.PNG](../Images/aws6.PNG)
+5. Subimos nuestra imagen.
+![aws7.PNG](../Images/aws7.PNG)
 
 
 
