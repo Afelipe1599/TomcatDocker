@@ -12,7 +12,7 @@ Para comenzar a utilizar nuestras propias imagenes en AWS lo primero que tenemos
 3. Acontinuacion subiremos nuestra imagen al repositorio dandole click en view push comands.
 ![aws5.png](../Images/aws5.png)
 4. Ejecutamos los comandos que se muestran.
-![aws6.png](../Images/aws6.png)
+![aws6.PNG](../Images/aws6.PNG)
 
 
 
