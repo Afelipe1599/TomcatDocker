@@ -16,6 +16,7 @@ Para comenzar a utilizar nuestras propias imagenes en AWS lo primero que tenemos
 5. Subimos nuestra imagen.
 ![aws7.PNG](../Images/aws7.PNG)
 
+# Desplegar nuestro contenedor en ECS con EC2
 
 
   
