@@ -4,12 +4,12 @@
 Para comenzar a utilizar nuestras propias imagenes en AWS lo primero que tenemos que hacer es subirla a ECR, este servicio es el que nos ofrece amazon para subir nuestras propias imagenes a un repositorio publica o privado con el cual podemos disponer para utilizarlas en AWS.
 
 1. Crear repositorio
-1.   
+![aws1.png](../Images/aws1.png)
 2.   Escoger un nombre y si va a ser publico o privado.
 
 
 
   
-  ![aws1.png](../Images/aws1.png)
+  
   
 
