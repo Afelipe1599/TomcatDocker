@@ -18,8 +18,5 @@ Para comenzar a utilizar nuestras propias imagenes en AWS lo primero que tenemos
 
 # Desplegar nuestro contenedor en ECS con EC2
 
-
-  
-  
-  
-
+1. Crear cluster de ECS.
+![EC21.png.png](../Images/EC21.png.png)
