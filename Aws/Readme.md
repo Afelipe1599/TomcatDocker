@@ -21,5 +21,8 @@ Para comenzar a utilizar nuestras propias imagenes en AWS lo primero que tenemos
 1. Crear cluster de ECS.
 ![EC21.png](../Images/EC21.png)
 
-1. Seleccionamos el tipo de cluster que queremos
+2. Seleccionamos el tipo de cluster que queremos
 ![EC22.PNG](../Images/EC22.PNG)
+
+3. Le damos un nombre
+![EC23.PNG](../Images/EC23.PNG)
