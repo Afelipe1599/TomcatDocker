@@ -26,3 +26,6 @@ Para comenzar a utilizar nuestras propias imagenes en AWS lo primero que tenemos
 
 3. Le damos un nombre
 ![EC23.PNG](../Images/EC23.PNG)
+
+4. Configuramos el cluster con el tipo de instancia que queremos por nodo y el numero de instancias.
+![EC23.PNG](../Images/EC23.PNG)
